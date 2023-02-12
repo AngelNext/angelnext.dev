@@ -9,6 +9,7 @@ export default defineConfig({
 	vite: {
 		plugins: [
 			VitePWA({
+				registerType: "autoUpdate",
 				manifestFilename: "app.webmanifest",
 				manifest: {
 					name: "AngelNext",
