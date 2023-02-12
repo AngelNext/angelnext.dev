@@ -20,7 +20,11 @@ export default defineConfig({
 			manifest: false,
 			workbox: {
 				navigateFallback: "/404",
-				globPatterns: ["**/*.{js,css,html,webp,png,svg}"],
+				globPatterns: ["**/*.{js,css,html,webp,png,txt,woff,woff2}"],
+			},
+			devOptions: {
+				enabled: true,
+				navigateFallback: "/404",
 			},
 		}),
 	],

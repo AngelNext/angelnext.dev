@@ -2,15 +2,19 @@
 	"name": "AngelNext",
 	"short_name": "AngelNext",
 	"description": "The personal site of AngelNext.",
-	"start_url": "https://angelnext.dev/",
 	"display": "standalone",
 	"background_color": "#fff",
 	"theme_color": "#7611a6",
 	"icons": [
 		{
-			"src": "/favicon.svg",
+			"src": "/angelnext-192x192.png",
+			"sizes": "192x192",
+			"type": "image/png"
+		},
+		{
+			"src": "/angelnext-512x512.png",
 			"sizes": "512x512",
-			"type": "image/svg+xml"
+			"type": "image/png"
 		}
 	]
 }

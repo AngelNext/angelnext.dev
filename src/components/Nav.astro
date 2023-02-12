@@ -1,4 +1,5 @@
 ---
+import Avatar from './Avatar.astro';
 import Icon, { Props as IconProps } from './Icon.astro';
 import ThemeToggle from './ThemeToggle.astro';
 
@@ -21,7 +22,7 @@ const iconLinks: { label: string; href: string; icon: IconProps['icon'] }[] = [
 <nav>
 	<div class='menu-header'>
 		<a href='/' class='site-title'>
-			<img width='60' height='60' src='/favicon.svg' alt='AngelNext Icon' />
+			<Avatar size={60} />
 			AngelNext
 		</a>
 		<menu-button>

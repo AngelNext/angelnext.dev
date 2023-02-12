@@ -3,6 +3,9 @@ dist/
 # generated types
 .astro/
 
+# Astro PWA
+dev-dist
+
 # netlify
 .netlify/
 
