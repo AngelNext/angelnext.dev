@@ -9,15 +9,10 @@
 		"build": "astro build",
 		"preview": "astro preview"
 	},
-	"dependencies": {
+	"devDependencies": {
 		"@astrojs/prefetch": "^0.1.2",
 		"@astrojs/sitemap": "^1.0.1",
 		"astro": "^2.0.10",
-		"astro-compress": "^1.1.32",
-		"vite-plugin-pwa": "^0.14.3",
-		"workbox-window": "^6.5.4"
-	},
-	"devDependencies": {
-		"@vite-pwa/astro": "^0.0.1"
+		"astro-compress": "^1.1.32"
 	}
 }

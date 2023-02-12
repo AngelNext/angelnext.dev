@@ -1,6 +1,3 @@
 {
-	"extends": "astro/tsconfigs/strictest",
-	"compilerOptions": {
-		"types": ["vite-plugin-pwa/client"]
-	}
+	"extends": "astro/tsconfigs/strictest"
 }
