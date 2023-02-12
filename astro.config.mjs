@@ -45,12 +45,8 @@ export default defineConfig({
 					},
 				],
 			},
-			workbox: {
-				navigateFallback: "/404",
-			},
 			devOptions: {
 				enabled: true,
-				navigateFallback: "/404",
 			},
 		}),
 		compress(),
