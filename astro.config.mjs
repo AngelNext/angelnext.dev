@@ -17,10 +17,30 @@ export default defineConfig({
 		}),
 		AstroPWA({
 			registerType: "autoUpdate",
-			manifest: false,
+			manifestFilename: "app.webmanifest",
+			manifest: {
+				name: "AngelNext",
+				short_name: "AngelNext",
+				description: "The personal site of AngelNext.",
+				display: "standalone",
+				background_color: "#ffffff",
+				theme_color: "#7611a6",
+				icons: [
+					{
+						src: "/angelnext-192x192.png",
+						sizes: "192x192",
+						type: "image/png",
+					},
+					{
+						src: "/angelnext-512x512.png",
+						sizes: "512x512",
+						type: "image/png",
+					},
+				],
+			},
 			workbox: {
 				navigateFallback: "/404",
-				globPatterns: ["**/*.{js,css,html,webp,png,txt,woff,woff2}"],
+				globPatterns: ["**/*.{js,css,html,webp,png,woff,woff2}"],
 			},
 			devOptions: {
 				enabled: true,
