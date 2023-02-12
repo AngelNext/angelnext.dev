@@ -3,13 +3,11 @@ import Avatar from './Avatar.astro';
 import Icon, { Props as IconProps } from './Icon.astro';
 import ThemeToggle from './ThemeToggle.astro';
 
-/** Main menu items */
 const textLinks: { label: string; href: string }[] = [
 	{ label: 'Home', href: '/' },
 	{ label: 'Work', href: '/work/' },
 ];
 
-/** Icon links to social media — edit these with links to your profiles! */
 const iconLinks: { label: string; href: string; icon: IconProps['icon'] }[] = [
 	{ label: 'GitHub', href: 'https://github.com/AngelNext', icon: 'github-logo' },
 	{ label: 'Twitter', href: 'https://twitter.com/AngelNext409', icon: 'twitter-logo' },
