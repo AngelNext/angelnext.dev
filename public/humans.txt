@@ -1,0 +1,14 @@
+/* TEAM */
+
+	Web Developer: Ángel González Vázquez
+	Site: https://angelnext.dev
+	Twitter: AngelNext409
+	Location: Estepona Andalucía, Spain
+
+
+/* SITE */
+
+	Last update:2012/02/04
+	Language: English
+	Doctype: HTML5
+	IDE: VSCode, Canva
